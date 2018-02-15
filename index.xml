@@ -16,7 +16,9 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://taiyaq.github.io/houtouse/extension/install/</guid>
-      <description>ブラウザの拡張機能は次のリンクからインストールできます。</description>
+      <description>ブラウザの拡張機能は次のリンクからインストールできます。
+ChromeWebストア
+アイコンが表示されればインストールは完了です。</description>
     </item>
     
     <item>
@@ -25,7 +27,17 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://taiyaq.github.io/houtouse/extension/select/</guid>
-      <description>作成中。</description>
+      <description>対訳の選択は対象のサイトをブラウザで開くところから始めます。
+例として以下のサイトを対訳してみます。 https://facebook.github.io/react-native/docs/using-a-scrollview.html
+サイトを開きTaiyaq-Extensionのiconをクリックし、サイドバーを開きます。
+初回ですとアカウントの作成が必要です お手数ですがログインをクリックして下さい。
+対訳情報がなければ以下のように新規作成ボタンを押して対訳の作成を行うしかありません。 対訳の作成手順はこちらを参照下さい。
+もし対訳が存在するなら以下のように表示するはずです。
+翻訳ボタンを押すと翻訳できるはずです。
+翻訳が確認できたはずです。
+次回からこの翻訳が自動で適用されます。
+もしそれが困るようでしたら再度同じ箇所をクリックして翻訳を解除して下さい。
+最後に、もし良い翻訳だと感じたらlikeボタンを忘れずに押して下さい。</description>
     </item>
     
     <item>
