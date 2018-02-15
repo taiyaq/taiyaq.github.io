@@ -1,14 +1,41 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Taiyaqとは on Taiyaq</title>
+    <title>Taiyaq</title>
     <link>https://taiyaq.github.io/</link>
-    <description>Recent content in Taiyaqとは on Taiyaq</description>
+    <description>Recent content on Taiyaq</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-JP</language>
     
 	<atom:link href="https://taiyaq.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>インストール</title>
+      <link>https://taiyaq.github.io/houtouse/extension/install/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://taiyaq.github.io/houtouse/extension/install/</guid>
+      <description>ブラウザの拡張機能は次のリンクからインストールできます。</description>
+    </item>
+    
+    <item>
+      <title>対訳の選択</title>
+      <link>https://taiyaq.github.io/houtouse/extension/select/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://taiyaq.github.io/houtouse/extension/select/</guid>
+      <description>作成中。</description>
+    </item>
+    
+    <item>
+      <title>対訳の作成</title>
+      <link>https://taiyaq.github.io/houtouse/extension/create/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://taiyaq.github.io/houtouse/extension/create/</guid>
+      <description>作成中。</description>
+    </item>
     
   </channel>
 </rss>

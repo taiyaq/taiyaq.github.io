@@ -10,7 +10,7 @@
     <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
 <link rel="icon" href="/images/favicon.png" type="image/x-icon" />
 
-    <title>Taiyaq :: Taiyaq</title>
+    <title>対訳の選択 :: Taiyaq</title>
     
     
     <link href="/css/nucleus.css?1518696374" rel="stylesheet">
@@ -35,7 +35,7 @@
     </style>
     
   </head>
-  <body class="" data-url="/">
+  <body class="" data-url="/houtouse/extension/select/">
     <nav id="sidebar" class="">
 
 
@@ -116,7 +116,7 @@
   
     
     <li data-nav-id="/houtouse/" title="使いかた" class="dd-item 
-        
+        parent
         
         
         ">
@@ -143,7 +143,7 @@
   
     
     <li data-nav-id="/houtouse/extension/" title="ブラウザ拡張機能" class="dd-item 
-        
+        parent
         
         
         ">
@@ -186,7 +186,7 @@
  
   
     
-      <li data-nav-id="/houtouse/extension/select/" title="対訳の選択" class="dd-item ">
+      <li data-nav-id="/houtouse/extension/select/" title="対訳の選択" class="dd-item active">
         <a href="/houtouse/extension/select/">
         対訳の選択
         
@@ -267,61 +267,75 @@
         <div id="overlay"></div>
         <div class="padding highlightable">
               
+              <div>
+                <div id="top-bar">
+                
+                
+                <div id="breadcrumbs" itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
+                    <span id="sidebar-toggle-span">
+                        <a href="#" id="sidebar-toggle" data-sidebar-toggle="">
+                          <i class="fa fa-bars"></i>
+                        </a>
+                    </span>
+                  
+                  <span id="toc-menu"><i class="fa fa-list-alt"></i></span>
+                  
+                  <span class="links">
+                    
+          
+          
+            
+            
+          
+          
+            
+            
+          
+          
+            
+            
+          
+          
+            <a href='/'>Taiyaq</a> > <a href='/houtouse/'>使いかた</a> > <a href='/houtouse/extension/'>ブラウザ拡張機能</a> > 対訳の選択
+          
+         
+          
+         
+          
+         
+          
+           
+                  </span>
+                </div>
+                
+                    <div class="progress">
+    <div class="wrapper">
+
+    </div>
+</div>
+
+                
+              </div>
+            </div>
+            
 
         
         <div id="body-inner">
           
+            <h1>対訳の選択</h1>
+          
 
         
 
-<span id="sidebar-toggle-span">
-<a href="#" id="sidebar-toggle" data-sidebar-toggle=""><i class="fa fa-bars"></i> navigation</a>
-</span>
 
- 
+<p>作成中。</p>
 
 
-<h1 id="taiyaq">Taiyaq</h1>
-
-<p>Taiyaq(タイヤク)は<strong>プログラマ向けの翻訳サービス</strong>です。</p>
-
-<p>その名前に由来する通り、対訳を皆で共有して翻訳されたドキュメントを読む事ができます。このサービスを使うことで直接最新ライブラリのドキュメントや README を読むことができます。例えば、hyperapp の<a href="https://taiyaq.com/contents/PGg8jzP12zX8JtE7LALAdzvOAJ">README</a>を直接日本語訳で読めます。</p>
-
-<p><img src="images/hyperapp_readme.png" alt="hyper_app_readme" /></p>
-
-<p>プログラマーが翻訳されたドキュメントを読む時に気にしていることは<strong>最新のパージョンのもの</strong>を読んでいるのか？という点です。大抵ライブラリはバージョンが上がっていきドキュメントの内容も更新されていきます。
-<strong>翻訳はその後に行われ</strong>るため、古い情報を参考にライブラリの使いかたを覚えはめになり余計な惨事を招くことになります。</p>
-
-<p>例えばこんな感じです</p>
-
-<ul>
-<li><strong>質問</strong> <code>React.js</code> の使いかたについて教えてください。以下のようなコードを書いたんですが、、、</li>
-</ul>
-
-<pre><code class="language-js">import React from 'react';
-
-var Parent = React.createClass({
-    getInitialState:function() {
-    return {
-            display: &quot;none&quot;
-    }
-  },
-// 省略
-</code></pre>
-
-<ul>
-<li><strong>解答</strong> そもそも <code>createClass</code>を使うのば ES2015 においては推奨されていません</li>
-</ul>
-
-<p>というようなやり取りです。</p>
-
-<p>そもそも React.js の本家のサイトを参照すればこんな質問が飛ぶことはありませんでした。</p>
-
-<p>つまりインターネットにおいては新旧が混在しているため正しい情報を得ることが難しいのです。翻訳ドキュメントは古い情報を更に翻訳したものですから余計に不利となります。プログラマーは常にこの<strong>古い可能性がある</strong>という点を気にしながらドキュメントを読んでいるのです。</p>
-
-<p>これを解決したく、このサービスが生まれました。</p>
+<footer class=" footline" >
 	
-  
+</footer>
+
+
         
         </div> 
         
@@ -372,6 +386,7 @@ var Parent = React.createClass({
             
                 
                     
+                    
                 
                 
 
@@ -387,6 +402,7 @@ var Parent = React.createClass({
             
                 
                     
+                    
                 
                 
 
@@ -400,21 +416,8 @@ var Parent = React.createClass({
             
                 
                     
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
                         
-            
-            
-                
+                        
                     
                 
                 
@@ -432,6 +435,26 @@ var Parent = React.createClass({
             
                 
                     
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
                 
                 
 
@@ -456,8 +479,10 @@ var Parent = React.createClass({
 
 
         
+            <a class="nav nav-prev" href="/houtouse/extension/install/" title="インストール"> <i class="fa fa-chevron-left"></i></a>
         
-            <a class="nav nav-next" href="/concept/" title="仕組みについて" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+        
+            <a class="nav nav-next" href="/houtouse/extension/create/" title="対訳の作成" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
         
     </div>
 
