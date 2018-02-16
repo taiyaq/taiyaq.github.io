@@ -16,8 +16,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://taiyaq.github.io/houtouse/extension/install/</guid>
-      <description>ブラウザの拡張機能は次のリンクからインストールできます。
-ChromeWebストア
+      <description>ブラウザの拡張機能は次のリンクからインストールできます。 ChromeWebストア
 アイコンが表示されればインストールは完了です。</description>
     </item>
     
@@ -32,9 +31,9 @@ ChromeWebストア
 サイトを開きTaiyaq-Extensionのiconをクリックし、サイドバーを開きます。
 初回ですとアカウントの作成が必要です お手数ですがログインをクリックして下さい。
 対訳情報がなければ以下のように新規作成ボタンを押して対訳の作成を行うしかありません。 対訳の作成手順はこちらを参照下さい。
-もし対訳が存在するなら以下のように表示するはずです。
-翻訳ボタンを押すと翻訳できるはずです。
-翻訳が確認できたはずです。
+もし対訳が存在するなら以下のように表示します。
+翻訳ボタンを押すと翻訳できます。
+翻訳が完了します。
 次回からこの翻訳が自動で適用されます。
 もしそれが困るようでしたら再度同じ箇所をクリックして翻訳を解除して下さい。
 最後に、もし良い翻訳だと感じたらlikeボタンを忘れずに押して下さい。</description>
@@ -46,7 +45,27 @@ ChromeWebストア
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://taiyaq.github.io/houtouse/extension/create/</guid>
-      <description>作成中。</description>
+      <description>以下のサイトを翻訳してみます。
+https://facebook.github.io/react-native/docs/using-a-scrollview.html
+ブラウザから上記リンクを開いて下さい。
+対訳の作成 以下のように、1,2,3の順でクリックして新規の対訳情報を作成します。
+以下のように翻訳の準備ができればokです。
+編集対象を絞り込む 沢山の対訳情報が揃いましたが、どれから翻訳すればいいか迷うはずです。
+そこでサイドバーを開いた状態で翻訳したい部分をクリックしてみて下さい。
+自動でフィルタ条件が設定され該当の対訳情報が絞り込まれます。
+これはうまく機能しない場合もあります。 その場合はフィルタ条件にヒットしそうな文字列を入力してみます。
+上手く絞りこめるはずです。 絞り込まれない場合はもう少し単語の数を減らしてみて下さい。
+対訳編集 該当の対訳を見つけたら実際に翻訳してみます。
+ところで、翻訳を手動で行うのは大変なので便利なエクステンションを使いましょう。
+google翻訳です
+これを使うと文章単位で翻訳できます。 ご覧の通り。結構使えます。 これをコピーしましょう。
+ただコピーするだけだと保存できない場合があります。今回はエラーが出ていますね。 対訳情報は特殊構文になっておりその通りにしないと保存できません。
+今回ペースとなる英文は以下のように設定されています。
+The&amp;lt;1&amp;gt;ScrollView&amp;lt;/1&amp;gt;is a generic scrolling container that can host multiple components and views. The scrollable items need not be homogeneous, and you can scroll both vertically and horizontally (by setting the&amp;lt;2&amp;gt;horizontal&amp;lt;/2&amp;gt;property).  ScrollViewとhorizontalが特殊なタグ &amp;lt;数値&amp;gt; &amp;lt;/数値&amp;gt; で囲まれています。 HTMLにおいて強調表示だったりリンクだった部分です。 翻訳時もその情報を対訳に付与する必要があるため、該当する単語に同じタグを割り当てて下さい。
+今回は以下のような対訳を設定しました。保存できるようになっているので忘れずにSaveを押して下さい。
+&amp;lt;1&amp;gt;ScrollView&amp;lt;/1&amp;gt;は、複数のコンポーネントとビューをホストできる一般的なスクロールコンテナです。スクロール可能なアイテムは同種である必要はなく、（&amp;lt;2&amp;gt;horizo​​ntal&amp;lt;/2&amp;gt;プロパティを設定することによって）垂直方向と水平方向の両方でスクロールすることができます。  翻訳を押すと翻訳されます。
+簡単ですね。ちなみに &amp;lt;br&amp;gt;だけは特別使うことができます。
+見た目として改行が必要だと思ったら入れてみて下さい。(但し、使えない場所もあります。) 上記はもちろんだめな例です。見た目が良くなるように上手く使ってみて下さい。</description>
     </item>
     
   </channel>

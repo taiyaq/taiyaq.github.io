@@ -13,19 +13,19 @@
     <title>対訳の作成 :: Taiyaq</title>
     
     
-    <link href="/css/nucleus.css?1518699781" rel="stylesheet">
-    <link href="/css/font-awesome.min.css?1518699781" rel="stylesheet">
-    <link href="/css/hybrid.css?1518699781" rel="stylesheet">
-    <link href="/css/featherlight.min.css?1518699781" rel="stylesheet">
-    <link href="/css/perfect-scrollbar.min.css?1518699781" rel="stylesheet">
-    <link href="/css/auto-complete.css?1518699781" rel="stylesheet">
-    <link href="/css/theme.css?1518699781" rel="stylesheet">
-    <link href="/css/hugo-theme.css?1518699781" rel="stylesheet">
+    <link href="/css/nucleus.css?1518782644" rel="stylesheet">
+    <link href="/css/font-awesome.min.css?1518782644" rel="stylesheet">
+    <link href="/css/hybrid.css?1518782644" rel="stylesheet">
+    <link href="/css/featherlight.min.css?1518782644" rel="stylesheet">
+    <link href="/css/perfect-scrollbar.min.css?1518782644" rel="stylesheet">
+    <link href="/css/auto-complete.css?1518782644" rel="stylesheet">
+    <link href="/css/theme.css?1518782644" rel="stylesheet">
+    <link href="/css/hugo-theme.css?1518782644" rel="stylesheet">
     
-      <link href="/css/theme-green.css?1518699781" rel="stylesheet">
+      <link href="/css/theme-green.css?1518782644" rel="stylesheet">
     
 
-    <script src="/js/jquery-2.x.min.js?1518699781"></script>
+    <script src="/js/jquery-2.x.min.js?1518782644"></script>
     
     <style type="text/css">
       :root #header + #content > #left > #rlblock_left{ 
@@ -70,14 +70,14 @@
     <span data-search-clear=""><i class="fa fa-close"></i></span>
 </div>
 
-<script type="text/javascript" src="/js/lunr.min.js?1518699781"></script>
-<script type="text/javascript" src="/js/auto-complete.js?1518699781"></script>
+<script type="text/javascript" src="/js/lunr.min.js?1518782644"></script>
+<script type="text/javascript" src="/js/auto-complete.js?1518782644"></script>
 <script type="text/javascript">
     
         var baseurl = '\/';
     
 </script>
-<script type="text/javascript" src="/js/search.js?1518699781"></script>
+<script type="text/javascript" src="/js/search.js?1518782644"></script>
 
     
   </div>
@@ -310,7 +310,18 @@
                 
                     <div class="progress">
     <div class="wrapper">
-
+<nav id="TableOfContents">
+<ul>
+<li><a href="#対訳の作成">対訳の作成</a></li>
+<li><a href="#編集対象を絞り込む">編集対象を絞り込む</a></li>
+<li><a href="#対訳編集">対訳編集</a></li>
+<li><a href="#次の対訳に移動する">次の対訳に移動する</a></li>
+<li><a href="#対訳のアップロード">対訳のアップロード</a>
+<ul>
+<li><a href="#追加情報の登録">追加情報の登録</a></li>
+</ul></li>
+</ul>
+</nav>
     </div>
 </div>
 
@@ -328,7 +339,154 @@
         
 
 
-<p>作成中。</p>
+
+
+<p>以下のサイトを翻訳してみます。<br />
+<a href="https://facebook.github.io/react-native/docs/using-a-scrollview.html">https://facebook.github.io/react-native/docs/using-a-scrollview.html</a></p>
+
+<p>ブラウザから上記リンクを開いて下さい。</p>
+
+<!-- 
+先ずは該当ドキュメントのライセンスを参照して翻訳して問題ないことを確認します。
+react-nativeのドキュメントのライセンスは
+https://github.com/facebook/react-native/blob/master/LICENSE-docs
+から確認できます。 -->
+
+<h1 id="対訳の作成">対訳の作成</h1>
+
+<p>以下のように、1,2,3の順でクリックして新規の対訳情報を作成します。</p>
+
+<p><img src="../images/create01.png?width=50pc" alt="create" /></p>
+
+<p>以下のように翻訳の準備ができればokです。</p>
+
+<p><img src="../images/create02.png?width=25pc" alt="create02" /></p>
+
+<h1 id="編集対象を絞り込む">編集対象を絞り込む</h1>
+
+<p>沢山の対訳情報が揃いましたが、どれから翻訳すればいいか迷うはずです。</p>
+
+<p>そこでサイドバーを開いた状態で翻訳したい部分をクリックしてみて下さい。</p>
+
+<p><img src="../images/filter01.png?width=50pc" alt="filter01" /></p>
+
+<p>自動でフィルタ条件が設定され該当の対訳情報が絞り込まれます。</p>
+
+<p>これはうまく機能しない場合もあります。
+その場合はフィルタ条件にヒットしそうな文字列を入力してみます。</p>
+
+<p><img src="../images/filter02.png?width=50pc" alt="filter02" /></p>
+
+<p>上手く絞りこめるはずです。
+絞り込まれない場合はもう少し単語の数を減らしてみて下さい。</p>
+
+<h1 id="対訳編集">対訳編集</h1>
+
+<p>該当の対訳を見つけたら実際に翻訳してみます。</p>
+
+<p>ところで、翻訳を手動で行うのは大変なので便利なエクステンションを使いましょう。<br />
+<a href="https://chrome.google.com/webstore/detail/google-translate/aapbdbdomjkkjkaonfhkkikfgjllcleb?hl=ja">google翻訳です</a></p>
+
+<p>これを使うと文章単位で翻訳できます。
+<img src="../images/translate01.png?width=50pc" alt="translate01" /></p>
+
+<p>ご覧の通り。結構使えます。
+これをコピーしましょう。</p>
+
+<p><img src="../images/translate02.png?width=50pc" alt="translate02" /></p>
+
+<p>ただコピーするだけだと保存できない場合があります。今回はエラーが出ていますね。
+対訳情報は特殊構文になっておりその通りにしないと保存できません。</p>
+
+<p>今回ペースとなる英文は以下のように設定されています。</p>
+
+<pre><code class="language-html">The&lt;1&gt;ScrollView&lt;/1&gt;is a generic scrolling container that can host multiple components and views. The scrollable items need not be homogeneous, and you can scroll both vertically and horizontally (by setting the&lt;2&gt;horizontal&lt;/2&gt;property).
+</code></pre>
+
+<p><code>ScrollView</code>と<code>horizontal</code>が特殊なタグ <code>&lt;数値&gt;</code> <code>&lt;/数値&gt;</code> で囲まれています。
+HTMLにおいて強調表示だったりリンクだった部分です。
+翻訳時もその情報を対訳に付与する必要があるため、該当する単語に同じタグを割り当てて下さい。</p>
+
+<p><img src="../images/translate03.png?width=50pc" alt="translate03" /></p>
+
+<p>今回は以下のような対訳を設定しました。保存できるようになっているので忘れずに<code>Save</code>を押して下さい。</p>
+
+<pre><code class="language-HTML">&lt;1&gt;ScrollView&lt;/1&gt;は、複数のコンポーネントとビューをホストできる一般的なスクロールコンテナです。スクロール可能なアイテムは同種である必要はなく、（&lt;2&gt;horizo​​ntal&lt;/2&gt;プロパティを設定することによって）垂直方向と水平方向の両方でスクロールすることができます。
+</code></pre>
+
+<p><img src="../images/translate04.png?width=50pc" alt="translate04" /></p>
+
+<p>翻訳を押すと翻訳されます。</p>
+
+<p>簡単ですね。ちなみに <code>&lt;br&gt;</code>だけは特別使うことができます。</p>
+
+<p>見た目として改行が必要だと思ったら入れてみて下さい。(但し、使えない場所もあります。)
+<img src="../images/br.png?width=50pc" alt="br" /></p>
+
+<p>上記はもちろんだめな例です。見た目が良くなるように上手く使ってみて下さい。</p>
+
+<h1 id="次の対訳に移動する">次の対訳に移動する</h1>
+
+<p><img src="../images/next.png?width=50pc" alt="next" /></p>
+
+<p>図のように上記はボタンになっており次の翻訳への移動に使うことができます。<br />
+上手く使って作業の効率化を図って下さい。</p>
+
+<h1 id="対訳のアップロード">対訳のアップロード</h1>
+
+<p>対訳の作成が一通り終わったらアップロードしてみましょう。</p>
+
+<h2 id="追加情報の登録">追加情報の登録</h2>
+
+<p><img src="../images/editDetail.png?width=50pc" alt="editDetail" /></p>
+
+<p>上記のように自作翻訳をクリックして詳細編集を選んで下さい。</p>
+
+<p><img src="../images/editDetail02.png?width=50pc" alt="editDetail02" /></p>
+
+<p>タイトルとTagを設定して下さい。</p>
+
+<p>今回は以下のように設定しました。</p>
+
+<table>
+<thead>
+<tr>
+<th align="left">種別</th>
+<th align="left">内容</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td align="left">タイトル</td>
+<td align="left"><code>React-native ScrollViewの説明の翻訳</code></td>
+</tr>
+
+<tr>
+<td align="left">Tags</td>
+<td align="left"><code>React.js, JavaScript</code></td>
+</tr>
+</tbody>
+</table>
+
+<p>としてます。</p>
+
+<p><code>公開状態</code> にチェックを入れると公開されます。
+ドキュメントのライセンス状態を確認してからチェックを入れるか作者に許可をもらうことを推奨します。</p>
+
+<p>Description には、どうして翻訳したかを記入しておくと良いでしょう。</p>
+
+<p><img src="../images/upload.png?width=50pc" alt="upload" /></p>
+
+<p>アップロードをクリックして下さい。</p>
+
+<p><img src="../images/upload02.png?width=50pc" alt="upload02" /></p>
+
+<p>再度、アップロードをクリックして下さい。</p>
+
+<p><img src="../images/complete.png?width=50pc" alt="complete" /></p>
+
+<p>アップロードが完了しました。ありがとうございます。</p>
 
 
 <footer class=" footline" >
@@ -488,20 +646,20 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/js/clipboard.min.js?1518699781"></script>
-    <script src="/js/perfect-scrollbar.min.js?1518699781"></script>
-    <script src="/js/perfect-scrollbar.jquery.min.js?1518699781"></script>
-    <script src="/js/jquery.sticky.js?1518699781"></script>
-    <script src="/js/featherlight.min.js?1518699781"></script>
-    <script src="/js/html5shiv-printshiv.min.js?1518699781"></script>
-    <script src="/js/highlight.pack.js?1518699781"></script>
+    <script src="/js/clipboard.min.js?1518782644"></script>
+    <script src="/js/perfect-scrollbar.min.js?1518782644"></script>
+    <script src="/js/perfect-scrollbar.jquery.min.js?1518782644"></script>
+    <script src="/js/jquery.sticky.js?1518782644"></script>
+    <script src="/js/featherlight.min.js?1518782644"></script>
+    <script src="/js/html5shiv-printshiv.min.js?1518782644"></script>
+    <script src="/js/highlight.pack.js?1518782644"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/js/modernizr.custom.71422.js?1518699781"></script>
-    <script src="/js/learn.js?1518699781"></script>
-    <script src="/js/hugo-learn.js?1518699781"></script>
+    <script src="/js/modernizr.custom.71422.js?1518782644"></script>
+    <script src="/js/learn.js?1518782644"></script>
+    <script src="/js/hugo-learn.js?1518782644"></script>
 
-    <link href="/mermaid/mermaid.css?1518699781" type="text/css" rel="stylesheet" />
-    <script src="/mermaid/mermaid.js?1518699781"></script>
+    <link href="/mermaid/mermaid.css?1518782644" type="text/css" rel="stylesheet" />
+    <script src="/mermaid/mermaid.js?1518782644"></script>
     <script>
         mermaid.initialize({ startOnLoad: true });
     </script>
